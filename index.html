@@ -1,9 +1,12 @@
 <html>
     <head>
-        <title>
-        </title>Raquel</title>
+        <title>Raquel</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     </head>
+
     <body>
 <section id="app">
 <h1>Aplicaciones</h1>
@@ -15,12 +18,36 @@
 <section id="game">
     <h1>Juegos</h1>
     <div class="line"></div>
-    <a href="https://studio.code.org/projects/spritelab/cKiGDD6LQoHmpuKr2gq2FkfJttjtpGa_5f0MQEAx86E" target="_blank">
+    <h2>Haz click en los juegos para explorar</h2>
+
+    <h5>Estos se crearon en laboratorio de juegos</h5>
+
+    <div id="myCarousel" class="carousel slide" >
+    <center>
+    <div class="carousel-inner">
+        <div class="item active">
+                <a href="https://studio.code.org/projects/spritelab/cKiGDD6LQoHmpuKr2gq2FkfJttjtpGa_5f0MQEAx86E" target="_blank">
         <img src="Comida.png">
-    </a>
-    <a href="https://studio.code.org/projects/spritelab/PxVPi5WjaCmbhWDiaeVsS0iSiXXdKj0cGnxq8fv4tqw" target="_blank">
-        <img src="dron.png">
-    </a>
+                </a>
+                <p>Comida saludable</p>
+        </div>
+
+        <div class="item">
+                <a href="https://studio.code.org/projects/spritelab/PxVPi5WjaCmbhWDiaeVsS0iSiXXdKj0cGnxq8fv4tqw" target="_blank">
+                <img src="dron.png">
+                </a>
+                <p>Atrapa al dron</p>
+        </div>
+    </div> 
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </center>
+    </div>
+</div>
 </section>
 
 <section id="chatbot">
